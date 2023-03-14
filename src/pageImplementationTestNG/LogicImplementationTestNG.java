@@ -24,8 +24,8 @@ public class LogicImplementationTestNG {
 	LoginPage lp;
 	NewCustomer newCust;
 	
-	 @BeforeClass
- // @Test(priority=0)
+	// @BeforeClass
+  @Test(priority=0)
 	public void beforeClass() throws InterruptedException 
   {
 		 System.setProperty("webdriver.chrome.driver", "C:\\AT tools\\Selenium Java Drivers\\chromedriver.exe");
